@@ -1,11 +1,23 @@
 /*
-  GROUP BY básico
+====================================================================
+Project     : LojaSQL
+Description : Consultas utilizando GROUP BY e funções agregadas
+Database    : SQL Server
+Author      : Débora
+Created At  : 2026-03-03
+File        : 01_group_by_basico.sql
+Schema      : dbo
+====================================================================
 
-  Project  : Mini Projeto - LojaSQL
-  Database : SQL Server
-  Author   : Débora
+Purpose:
+Este arquivo contém consultas demonstrando o uso de GROUP BY,
+funções agregadas (COUNT, AVG, MAX) e subqueries relacionadas.
+
+Dependencies:
+- Tabelas: clientes, pedidos, itens_pedido, produtos
 
 */
+
 
 -- ==========================================
 -- Clientes existem por estado.

@@ -1,3 +1,24 @@
+/*
+====================================================================
+Project     : LojaSQL
+Description : Consultas utilizando HAVING com condições simples
+Database    : SQL Server
+Author      : Débora
+Created At  : 2026-03-03
+File        : 02_HAVING_simples.sql
+Schema      : dbo
+====================================================================
+
+Purpose:
+Este arquivo contém consultas demonstrando o uso da cláusula HAVING
+para filtrar resultados após agregações com GROUP BY.
+
+Dependencies:
+- Tabelas: clientes, pedidos, itens_pedido, produtos
+
+*/
+
+
 -- ==========================================
 -- Clientes que fizeram mais de 2 pedidos.
 -- ==========================================

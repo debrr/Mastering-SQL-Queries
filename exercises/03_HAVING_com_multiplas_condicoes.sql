@@ -1,3 +1,24 @@
+/*
+====================================================================
+Project     : LojaSQL
+Description : Consultas utilizando HAVING com múltiplas condições
+Database    : SQL Server
+Author      : Débora
+Created At  : 2026-03-03
+File        : 03_HAVING_com_multiplas_condicoes.sql
+Schema      : dbo
+====================================================================
+
+Purpose:
+Este arquivo contém consultas demonstrando o uso da cláusula HAVING
+com múltiplas condições lógicas (AND) combinadas com funções
+agregadas como SUM e COUNT.
+
+Dependencies:
+- Tabelas: clientes, pedidos, itens_pedido, produtos
+
+*/
+
 
 -- ==========================================
 -- Clientes cujo pedido possui pelo menos 2 itens

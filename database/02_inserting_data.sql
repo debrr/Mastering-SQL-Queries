@@ -1,7 +1,7 @@
 /*
-  Project  : Mini Projeto - LojaSQL
+  Project  : Projeto SQL - LojaSQL
   Database : SQL Server
-  Author   : Debinha
+  Author   : Débora
   File     : 02_insert_data.sql
 */
 
