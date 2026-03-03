@@ -20,6 +20,27 @@ INSERT INTO clientes VALUES
 (6, 'Lucas Martins', 'Salvador', 'BA'),
 (7, 'Patrícia Gomes', 'Maceió', 'AL'),
 (8, 'Rafael Santos', 'Aracaju', 'SE');
+(9,  'Bruna Ferreira', 'São Paulo', 'SP'),
+(10, 'Thiago Mendes', 'Rio de Janeiro', 'RJ'),
+(11, 'Camila Rocha', 'Belo Horizonte', 'MG'),
+(12, 'Eduardo Nunes', 'Curitiba', 'PR'),
+(13, 'Juliana Barros', 'Porto Alegre', 'RS'),
+(14, 'André Carvalho', 'Florianópolis', 'SC'),
+(15, 'Larissa Pinto', 'Brasília', 'DF'),
+(16, 'Gustavo Ribeiro', 'Goiânia', 'GO'),
+(17, 'Renata Duarte', 'Campo Grande', 'MS'),
+(18, 'Marcelo Teixeira', 'Cuiabá', 'MT'),
+(19, 'Vanessa Araujo', 'Vitória', 'ES'),
+(20, 'Felipe Cardoso', 'Belém', 'PA'),
+(21, 'Isabela Moura', 'Manaus', 'AM'),
+(22, 'Daniel Lopes', 'Porto Velho', 'RO'),
+(23, 'Aline Castro', 'Palmas', 'TO'),
+(24, 'Ricardo Almeida', 'Macapá', 'AP'),
+(25, 'Paula Santos', 'Boa Vista', 'RR'),
+(26, 'Caio Oliveira', 'Rio Branco', 'AC'),
+(27, 'Sabrina Lima', 'São Luís', 'MA'),
+(28, 'Pedro Henrique', 'Teresina', 'PI');
+
 
 -- ========================================
 -- PRODUTOS
@@ -33,6 +54,19 @@ INSERT INTO produtos VALUES
 (6, 'Monitor 24"', 'Eletrônicos', 1100.00),
 (7, 'Fone Bluetooth', 'Eletrônicos', 280.00),
 (8, 'HD Externo 1TB', 'Eletrônicos', 420.00);
+(9,  'Geladeira Frost Free', 'Eletrodomésticos', 3200.00),
+(10, 'Micro-ondas 30L', 'Eletrodomésticos', 650.00),
+(11, 'Air Fryer 5L', 'Eletrodomésticos', 550.00),
+(12, 'Livro SQL Avançado', 'Livros', 120.00),
+(13, 'Livro Power BI na Prática', 'Livros', 150.00),
+(14, 'Curso Online Python', 'Cursos', 900.00),
+(15, 'Webcam HD', 'Informática', 300.00),
+(16, 'Headset Gamer', 'Acessórios', 450.00),
+(17, 'Impressora Multifuncional', 'Informática', 1200.00),
+(18, 'Tablet 10"', 'Eletrônicos', 1800.00),
+(19, 'Smartphone 128GB', 'Eletrônicos', 2800.00),
+(20, 'Smart TV 50"', 'Eletrônicos', 3500.00);
+
 
 -- ========================================
 -- PEDIDOS
@@ -50,6 +84,25 @@ INSERT INTO pedidos VALUES
 (10, 8, '2024-05-20'),
 (11, 3, '2024-06-02'),
 (12, 1, '2024-06-15');
+(13, 9,  '2024-06-20'),
+(14, 10, '2024-06-25'),
+(15, 11, '2024-07-01'),
+(16, 12, '2024-07-05'),
+(17, 13, '2024-07-08'),
+(18, 14, '2024-07-12'),
+(19, 15, '2024-07-15'),
+(20, 16, '2024-07-18'),
+(21, 17, '2024-07-20'),
+(22, 18, '2024-07-22'),
+(23, 19, '2024-07-25'),
+(24, 20, '2024-07-28'),
+(25, 21, '2024-08-01'),
+(26, 22, '2024-08-03'),
+(27, 23, '2024-08-05'),
+(28, 24, '2024-08-07'),
+(29, 25, '2024-08-10'),
+(30, 26, '2024-08-12');
+
 
 -- ========================================
 -- ITENS DO PEDIDO
@@ -85,3 +138,42 @@ INSERT INTO itens_pedido VALUES
 
 (18, 12, 1, 1),
 (19, 12, 8, 1);
+(20, 13, 19, 1),
+(21, 13, 12, 1),
+
+(22, 14, 20, 1),
+
+(23, 15, 9, 1),
+
+(24, 16, 14, 1),
+(25, 16, 15, 2),
+
+(26, 17, 10, 1),
+
+(27, 18, 16, 1),
+(28, 18, 2, 2),
+
+(29, 19, 11, 1),
+
+(30, 20, 18, 1),
+
+(31, 21, 17, 1),
+
+(32, 22, 13, 1),
+(33, 22, 3, 1),
+
+(34, 23, 19, 2),
+
+(35, 24, 4, 1),
+
+(36, 25, 6, 1),
+
+(37, 26, 7, 2),
+
+(38, 27, 5, 1),
+
+(39, 28, 12, 3),
+
+(40, 29, 1, 1),
+
+(41, 30, 8, 2);
