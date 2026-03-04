@@ -118,7 +118,7 @@ The goal is to progressively evolve from fundamental SQL concepts (GROUP BY, JOI
 
 ---
 
-## 🗂 Repository Structure
+## Repository Structure
 
 ```
 LojaSQL/
